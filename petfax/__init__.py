@@ -1,4 +1,3 @@
-                  
 from flask import Flask
 
 def create_app():
@@ -10,7 +9,7 @@ def create_app():
 
     from . import pet 
     app.register_blueprint(pet.bp)
-
+ 
     from . import fact
     app.register_blueprint(fact.bp)
 
